@@ -1,11 +1,12 @@
 const board = [
-    ['', '', '' ],
-    ['', '', '' ],
-    ['', '', '' ]
+                '', '', '',
+                '', '','',
+                '', '',''
 ];
 
+
 const InitialState = {
-    board,
+    board: board,
     winner: false,
     players : ['X', 'O'],
     turn : 0
